@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
     public class HelloRestController {
     @RequestMapping(value = {"", "/", "/home"})
     public String sayHello() {
-        return "Welcome To Rest Api Call";
+        return "Hello From Bridgelabz";
     }
 }
